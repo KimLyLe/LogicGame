@@ -17,11 +17,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
             android:layout_marginLeft="76dp" android:layout_marginStart="76dp" android:layout_marginEnd="76dp"
-            android:layout_marginRight="76dp" app:layout_constraintHorizontal_bias="0.0"
-    />
+            android:layout_marginRight="76dp" app:layout_constraintHorizontal_bias="0.0"/>
     <TableLayout
-            android:layout_width="0dp"
-            android:layout_height="470dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:id="@+id/tableLayout2"
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/textView">
@@ -44,17 +43,18 @@
                     android:layout_height="match_parent" android:id="@+id/textView20"
                     android:text="@string/textView20" android:textStyle="bold" android:textSize="24sp"/>
         </TableRow>
-        <TableRow android:layout_width="wrap_content" android:layout_height="match_parent" android:minHeight="100dp">
+        <TableRow
+                android:layout_width="wrap_content" android:layout_height="match_parent" android:minHeight="100dp">
             <TextView
                     android:gravity="center"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent" android:id="@+id/textView12"
-                    android:text="@string/textView12" android:textSize="24sp"/>
+                    android:text="@string/textView18" android:textSize="24sp"/>
             <TextView
                     android:gravity="center"
+                    android:text="@string/textView19"
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent" android:id="@+id/textView13"
-                    android:text="@string/textView13" android:textSize="24sp"/>
+                    android:layout_height="match_parent" android:id="@+id/textView13" android:textSize="24sp"/>
             <EditText
                     android:gravity="center"
                     android:layout_width="20dp"
@@ -62,17 +62,18 @@
                     android:ems="10"
                     android:id="@+id/editText3" android:textSize="24sp" android:inputType="textCapCharacters"/>
         </TableRow>
-        <TableRow android:layout_width="wrap_content" android:layout_height="match_parent" android:minHeight="100dp">
+        <TableRow
+                android:layout_width="wrap_content" android:layout_height="match_parent" android:minHeight="100dp">
             <TextView
                     android:gravity="center"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent" android:id="@+id/textView14"
-                    android:text="@string/textView14" android:textSize="24sp"/>
+                    android:text="@string/textView18" android:textSize="24sp"/>
             <TextView
                     android:gravity="center"
+                    android:text="@string/textView19"
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent" android:id="@+id/textView15"
-                    android:text="@string/textView15" android:textSize="24sp"/>
+                    android:layout_height="match_parent" android:id="@+id/textView15" android:textSize="24sp"/>
             <EditText
                     android:gravity="center"
                     android:layout_width="20dp"
@@ -80,17 +81,18 @@
                     android:ems="10"
                     android:id="@+id/editText4" android:textSize="24sp" android:inputType="textCapCharacters"/>
         </TableRow>
-        <TableRow android:layout_width="wrap_content" android:layout_height="match_parent" android:minHeight="100dp">
+        <TableRow
+                android:layout_width="wrap_content" android:layout_height="match_parent" android:minHeight="100dp">
             <TextView
                     android:gravity="center"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent" android:id="@+id/textView16"
-                    android:text="@string/textView16" android:textSize="24sp"/>
+                    android:text="@string/textView18" android:textSize="24sp"/>
             <TextView
                     android:gravity="center"
+                    android:text="@string/textView19"
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent" android:id="@+id/textView17"
-                    android:text="@string/textView17" android:textSize="24sp"/>
+                    android:layout_height="match_parent" android:id="@+id/textView17" android:textSize="24sp"/>
             <EditText
                     android:gravity="center"
                     android:layout_width="20dp"
@@ -99,9 +101,7 @@
                     android:id="@+id/editText5" android:textSize="24sp" android:inputType="textCapCharacters"/>
         </TableRow>
         <TableRow
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:minHeight="200px">
+                android:layout_width="wrap_content" android:layout_height="match_parent" android:minHeight="100dp">
             <TextView
                     android:gravity="center"
                     android:layout_width="wrap_content"
