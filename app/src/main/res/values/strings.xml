@@ -1,19 +1,16 @@
 <resources>
     <string name="app_name">Logic Game</string>
     <string name="textView">Conjunction (AND)</string>
+    <string name="textView9">A</string>
+    <string name="textView10">B</string>
+    <string name="textView12">T</string>
+    <string name="textView13">T</string>
+    <string name="textView14">T</string>
+    <string name="textView15">F</string>
+    <string name="textView16">F</string>
+    <string name="textView17">T</string>
+    <string name="textView18">F</string>
+    <string name="textView19">F</string>
+    <string name="textView20">A ^ B</string>
     <string name="button">SUBMIT</string>
-    <string name="textView2">A</string>
-    <string name="textView3">B</string>
-    <string name="textView4">A ^ B</string>
-    <string name="textView5">T</string>
-    <string name="textView6">T</string>
-    <string name="textView7">T</string>
-    <string name="textView8">F</string>
-    <string name="textView9">F</string>
-    <string name="textView10">T</string>
-    <string name="textView11">F</string>
-    <string name="editText"/>
-    <string name="editText2"/>
-    <string name="editText3"/>
-    <string name="editText4"/>
 </resources>
