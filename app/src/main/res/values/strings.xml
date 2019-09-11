@@ -13,4 +13,6 @@
     <string name="textView19">F</string>
     <string name="textView20">A ^ B</string>
     <string name="button">SUBMIT</string>
+    <string name="correct">Correct!</string>
+    <string name="incorrect">Wrong, try again!</string>
 </resources>
